@@ -44,10 +44,9 @@ class HomeActivity : AppCompatActivity() {
         binding.addbutton.setOnClickListener {
             Toast.makeText(this, "clicked:", Toast.LENGTH_LONG).show()
 //            showPopup()
+
+            //this is a comment
             deleteAll()
-
-
-
         }
         binding.search.setOnClickListener{
             startActivity(Intent(this, SearchActivity::class.java))
